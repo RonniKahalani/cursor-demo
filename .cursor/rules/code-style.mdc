@@ -1,0 +1,12 @@
+---
+description: Minimal code style for the cursor-demo Vite React app
+alwaysApply: true
+---
+
+# Code style
+
+- Prefer small, readable files over clever abstractions.
+- Use clear names; avoid abbreviations unless common (`id`, `url`).
+- Keep comments rare — only explain non-obvious intent.
+- Match existing formatting in the file you edit.
+- Do not add dependencies unless the user asks.
