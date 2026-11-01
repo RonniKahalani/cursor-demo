@@ -1,0 +1,13 @@
+---
+description: React component conventions for this one-page Vite app
+globs: src/**/*.{jsx,tsx,js,ts}
+alwaysApply: false
+---
+
+# React components
+
+- Use functional components and default exports for page-level components.
+- Keep UI state local with `useState`; avoid global state for this tiny app.
+- Prefer plain CSS in `src/index.css` over CSS-in-JS or new styling libraries.
+- Interactive overlays (modals, dialogs) should support Escape to close and a visible Close control.
+- Keep JSX flat: one primary section per screen unless the user asks for more.
